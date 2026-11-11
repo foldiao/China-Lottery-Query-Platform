@@ -1,0 +1,638 @@
+[
+  {
+    "id": "94e188718c4b",
+    "game": "ssq",
+    "base_period": "2026127",
+    "created_at": "2026-11-08T21:38:57+08:00",
+    "method_versions": {
+      "neural": "mlp-12-window5-20-v1",
+      "bayes": "dirichlet-alpha20-v1",
+      "random": "uniform-v1"
+    },
+    "status": "未纳入对照",
+    "strategies": {
+      "neural": {
+        "numbers": [
+          14,
+          17,
+          19,
+          22,
+          23,
+          32,
+          4
+        ],
+        "hits": null
+      },
+      "bayes": {
+        "numbers": [
+          10,
+          12,
+          13,
+          21,
+          24,
+          27,
+          2
+        ],
+        "hits": null
+      },
+      "random": {
+        "numbers": [
+          3,
+          7,
+          9,
+          14,
+          23,
+          33,
+          6
+        ],
+        "hits": null
+      }
+    },
+    "draw_period": "2026128",
+    "draw_date": "2026-11-08",
+    "draw_numbers": [
+      5,
+      6,
+      10,
+      25,
+      27,
+      30,
+      11
+    ],
+    "settlement_note": "记录日期不早于开奖日期，无法确认这是开奖前预测。"
+  },
+  {
+    "id": "2de85b34fc56",
+    "game": "ssq",
+    "base_period": "2026128",
+    "created_at": "2026-11-10T18:22:54+08:00",
+    "method_versions": {
+      "neural": "mlp-12-window5-20-v1",
+      "bayes": "dirichlet-alpha20-v1",
+      "random": "uniform-v1"
+    },
+    "rankings": {
+      "neural": [
+        [
+          [
+            {
+              "rank": 1,
+              "number": 14,
+              "score": 0.703956
+            },
+            {
+              "rank": 2,
+              "number": 30,
+              "score": 0.698082
+            },
+            {
+              "rank": 3,
+              "number": 26,
+              "score": 0.669532
+            },
+            {
+              "rank": 4,
+              "number": 7,
+              "score": 0.644765
+            },
+            {
+              "rank": 5,
+              "number": 32,
+              "score": 0.625379
+            },
+            {
+              "rank": 6,
+              "number": 8,
+              "score": 0.581613
+            },
+            {
+              "rank": 7,
+              "number": 1,
+              "score": 0.578766
+            },
+            {
+              "rank": 8,
+              "number": 13,
+              "score": 0.562753
+            },
+            {
+              "rank": 9,
+              "number": 10,
+              "score": 0.535102
+            },
+            {
+              "rank": 10,
+              "number": 22,
+              "score": 0.521253
+            },
+            {
+              "rank": 11,
+              "number": 3,
+              "score": 0.520942
+            },
+            {
+              "rank": 12,
+              "number": 5,
+              "score": 0.502288
+            },
+            {
+              "rank": 13,
+              "number": 33,
+              "score": 0.495066
+            },
+            {
+              "rank": 14,
+              "number": 11,
+              "score": 0.493317
+            },
+            {
+              "rank": 15,
+              "number": 24,
+              "score": 0.481659
+            },
+            {
+              "rank": 16,
+              "number": 9,
+              "score": 0.479798
+            },
+            {
+              "rank": 17,
+              "number": 29,
+              "score": 0.474761
+            },
+            {
+              "rank": 18,
+              "number": 20,
+              "score": 0.467553
+            },
+            {
+              "rank": 19,
+              "number": 28,
+              "score": 0.464432
+            },
+            {
+              "rank": 20,
+              "number": 23,
+              "score": 0.460188
+            },
+            {
+              "rank": 21,
+              "number": 4,
+              "score": 0.455476
+            },
+            {
+              "rank": 22,
+              "number": 16,
+              "score": 0.448989
+            },
+            {
+              "rank": 23,
+              "number": 17,
+              "score": 0.440559
+            },
+            {
+              "rank": 24,
+              "number": 27,
+              "score": 0.43882
+            },
+            {
+              "rank": 25,
+              "number": 21,
+              "score": 0.433784
+            },
+            {
+              "rank": 26,
+              "number": 6,
+              "score": 0.430894
+            },
+            {
+              "rank": 27,
+              "number": 31,
+              "score": 0.422641
+            },
+            {
+              "rank": 28,
+              "number": 18,
+              "score": 0.418066
+            },
+            {
+              "rank": 29,
+              "number": 15,
+              "score": 0.411176
+            },
+            {
+              "rank": 30,
+              "number": 25,
+              "score": 0.402043
+            },
+            {
+              "rank": 31,
+              "number": 12,
+              "score": 0.384963
+            },
+            {
+              "rank": 32,
+              "number": 2,
+              "score": 0.378113
+            },
+            {
+              "rank": 33,
+              "number": 19,
+              "score": 0.377985
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "rank": 1,
+              "number": 14,
+              "score": 0.634226
+            },
+            {
+              "rank": 2,
+              "number": 1,
+              "score": 0.633493
+            },
+            {
+              "rank": 3,
+              "number": 16,
+              "score": 0.61079
+            },
+            {
+              "rank": 4,
+              "number": 3,
+              "score": 0.601343
+            },
+            {
+              "rank": 5,
+              "number": 9,
+              "score": 0.523391
+            },
+            {
+              "rank": 6,
+              "number": 4,
+              "score": 0.522875
+            },
+            {
+              "rank": 7,
+              "number": 15,
+              "score": 0.516947
+            },
+            {
+              "rank": 8,
+              "number": 11,
+              "score": 0.476332
+            },
+            {
+              "rank": 9,
+              "number": 7,
+              "score": 0.472301
+            },
+            {
+              "rank": 10,
+              "number": 12,
+              "score": 0.469215
+            },
+            {
+              "rank": 11,
+              "number": 2,
+              "score": 0.463564
+            },
+            {
+              "rank": 12,
+              "number": 10,
+              "score": 0.451605
+            },
+            {
+              "rank": 13,
+              "number": 5,
+              "score": 0.435558
+            },
+            {
+              "rank": 14,
+              "number": 13,
+              "score": 0.423111
+            },
+            {
+              "rank": 15,
+              "number": 6,
+              "score": 0.390458
+            },
+            {
+              "rank": 16,
+              "number": 8,
+              "score": 0.378859
+            }
+          ]
+        ]
+      ],
+      "bayes": [
+        [
+          [
+            {
+              "rank": 1,
+              "number": 14,
+              "score": 0.034429
+            },
+            {
+              "rank": 2,
+              "number": 6,
+              "score": 0.03411
+            },
+            {
+              "rank": 3,
+              "number": 22,
+              "score": 0.033951
+            },
+            {
+              "rank": 4,
+              "number": 9,
+              "score": 0.032754
+            },
+            {
+              "rank": 5,
+              "number": 2,
+              "score": 0.032674
+            },
+            {
+              "rank": 6,
+              "number": 1,
+              "score": 0.032276
+            },
+            {
+              "rank": 7,
+              "number": 17,
+              "score": 0.031797
+            },
+            {
+              "rank": 8,
+              "number": 10,
+              "score": 0.031478
+            },
+            {
+              "rank": 9,
+              "number": 19,
+              "score": 0.031478
+            },
+            {
+              "rank": 10,
+              "number": 27,
+              "score": 0.031239
+            },
+            {
+              "rank": 11,
+              "number": 18,
+              "score": 0.031079
+            },
+            {
+              "rank": 12,
+              "number": 26,
+              "score": 0.031079
+            },
+            {
+              "rank": 13,
+              "number": 20,
+              "score": 0.0306
+            },
+            {
+              "rank": 14,
+              "number": 32,
+              "score": 0.030521
+            },
+            {
+              "rank": 15,
+              "number": 15,
+              "score": 0.030441
+            },
+            {
+              "rank": 16,
+              "number": 7,
+              "score": 0.030361
+            },
+            {
+              "rank": 17,
+              "number": 13,
+              "score": 0.030281
+            },
+            {
+              "rank": 18,
+              "number": 8,
+              "score": 0.030202
+            },
+            {
+              "rank": 19,
+              "number": 24,
+              "score": 0.029962
+            },
+            {
+              "rank": 20,
+              "number": 25,
+              "score": 0.029882
+            },
+            {
+              "rank": 21,
+              "number": 4,
+              "score": 0.029404
+            },
+            {
+              "rank": 22,
+              "number": 12,
+              "score": 0.029404
+            },
+            {
+              "rank": 23,
+              "number": 5,
+              "score": 0.029005
+            },
+            {
+              "rank": 24,
+              "number": 11,
+              "score": 0.029005
+            },
+            {
+              "rank": 25,
+              "number": 23,
+              "score": 0.029005
+            },
+            {
+              "rank": 26,
+              "number": 16,
+              "score": 0.028845
+            },
+            {
+              "rank": 27,
+              "number": 30,
+              "score": 0.028766
+            },
+            {
+              "rank": 28,
+              "number": 3,
+              "score": 0.028287
+            },
+            {
+              "rank": 29,
+              "number": 31,
+              "score": 0.028287
+            },
+            {
+              "rank": 30,
+              "number": 33,
+              "score": 0.028207
+            },
+            {
+              "rank": 31,
+              "number": 29,
+              "score": 0.027808
+            },
+            {
+              "rank": 32,
+              "number": 28,
+              "score": 0.02709
+            },
+            {
+              "rank": 33,
+              "number": 21,
+              "score": 0.026293
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "rank": 1,
+              "number": 1,
+              "score": 0.070869
+            },
+            {
+              "rank": 2,
+              "number": 16,
+              "score": 0.069444
+            },
+            {
+              "rank": 3,
+              "number": 15,
+              "score": 0.06897
+            },
+            {
+              "rank": 4,
+              "number": 4,
+              "score": 0.066595
+            },
+            {
+              "rank": 5,
+              "number": 7,
+              "score": 0.066595
+            },
+            {
+              "rank": 6,
+              "number": 12,
+              "score": 0.066595
+            },
+            {
+              "rank": 7,
+              "number": 6,
+              "score": 0.063272
+            },
+            {
+              "rank": 8,
+              "number": 3,
+              "score": 0.061847
+            },
+            {
+              "rank": 9,
+              "number": 8,
+              "score": 0.061372
+            },
+            {
+              "rank": 10,
+              "number": 14,
+              "score": 0.061372
+            },
+            {
+              "rank": 11,
+              "number": 11,
+              "score": 0.060897
+            },
+            {
+              "rank": 12,
+              "number": 2,
+              "score": 0.058523
+            },
+            {
+              "rank": 13,
+              "number": 5,
+              "score": 0.058523
+            },
+            {
+              "rank": 14,
+              "number": 10,
+              "score": 0.056624
+            },
+            {
+              "rank": 15,
+              "number": 9,
+              "score": 0.055199
+            },
+            {
+              "rank": 16,
+              "number": 13,
+              "score": 0.0533
+            }
+          ]
+        ]
+      ]
+    },
+    "status": "未纳入对照",
+    "strategies": {
+      "neural": {
+        "numbers": [
+          7,
+          8,
+          14,
+          26,
+          30,
+          32,
+          14
+        ],
+        "hits": null
+      },
+      "bayes": {
+        "numbers": [
+          4,
+          7,
+          8,
+          9,
+          12,
+          33,
+          10
+        ],
+        "hits": null
+      },
+      "random": {
+        "numbers": [
+          2,
+          3,
+          12,
+          18,
+          25,
+          26,
+          16
+        ],
+        "hits": null
+      }
+    },
+    "draw_period": "2026129",
+    "draw_date": "2026-11-10",
+    "draw_numbers": [
+      3,
+      9,
+      16,
+      20,
+      25,
+      30,
+      5
+    ],
+    "settlement_note": "记录日期不早于开奖日期，无法确认这是开奖前预测。"
+  }
+]

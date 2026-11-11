@@ -1,0 +1,640 @@
+{
+  "ssq": {
+    "game": "ssq",
+    "drawCount": 2086,
+    "trainCount": 1668,
+    "testCount": 418,
+    "trainFirst": "2013001",
+    "trainLast": "2024012",
+    "testFirst": "2024013",
+    "testLast": "2026128",
+    "architecture": "per-group MLP, 12 hidden units; 5/20 draw features",
+    "epochs": 4,
+    "trainExamplesPerHead": 1200,
+    "meanHits": {
+      "nn": 1.1148,
+      "bayes": 1.2105,
+      "random": 1.1534
+    },
+    "nnMinusRandom": {
+      "mean": -0.0386,
+      "ci95": [
+        -0.1271,
+        0.0475
+      ]
+    },
+    "nnMinusBayes": {
+      "mean": -0.0957,
+      "ci95": [
+        -0.2201,
+        0.0335
+      ]
+    },
+    "groups": [
+      {
+        "label": "红球",
+        "randomExpected": 1.0909
+      },
+      {
+        "label": "蓝球",
+        "randomExpected": 0.0625
+      }
+    ],
+    "beatsRandomAt95": false,
+    "beatsBayesAt95": false,
+    "results": {
+      "random": "未证明显著优于随机",
+      "bayes": "未证明显著优于贝叶斯基线"
+    },
+    "nextSuggestedNumbers": [
+      {
+        "label": "红球",
+        "numbers": [
+          7,
+          8,
+          14,
+          26,
+          30,
+          32
+        ],
+        "scores": [
+          [
+            0.5787655993362834,
+            0.37811286750926293,
+            0.5209422071817309,
+            0.45547552191307406,
+            0.5022881777057479,
+            0.4308940204406063,
+            0.6447654466858853,
+            0.5816127385938339,
+            0.4797977013335819,
+            0.5351017750854455,
+            0.49331670847604103,
+            0.3849632923956265,
+            0.5627533228389305,
+            0.7039560941997808,
+            0.4111757124632163,
+            0.44898947154376667,
+            0.44055934409885605,
+            0.41806631823453944,
+            0.37798459966511017,
+            0.46755314253505403,
+            0.4337837391945052,
+            0.5212526700879626,
+            0.4601876762305359,
+            0.48165935509670516,
+            0.4020434043423703,
+            0.6695323429259438,
+            0.43881990378853536,
+            0.4644322394872167,
+            0.47476073375834393,
+            0.6980815280701528,
+            0.42264087785182847,
+            0.6253790338422229,
+            0.4950658132069811
+          ]
+        ],
+        "rankings": [
+          [
+            {
+              "rank": 1,
+              "number": 14,
+              "score": 0.703956
+            },
+            {
+              "rank": 2,
+              "number": 30,
+              "score": 0.698082
+            },
+            {
+              "rank": 3,
+              "number": 26,
+              "score": 0.669532
+            },
+            {
+              "rank": 4,
+              "number": 7,
+              "score": 0.644765
+            },
+            {
+              "rank": 5,
+              "number": 32,
+              "score": 0.625379
+            },
+            {
+              "rank": 6,
+              "number": 8,
+              "score": 0.581613
+            },
+            {
+              "rank": 7,
+              "number": 1,
+              "score": 0.578766
+            },
+            {
+              "rank": 8,
+              "number": 13,
+              "score": 0.562753
+            },
+            {
+              "rank": 9,
+              "number": 10,
+              "score": 0.535102
+            },
+            {
+              "rank": 10,
+              "number": 22,
+              "score": 0.521253
+            },
+            {
+              "rank": 11,
+              "number": 3,
+              "score": 0.520942
+            },
+            {
+              "rank": 12,
+              "number": 5,
+              "score": 0.502288
+            },
+            {
+              "rank": 13,
+              "number": 33,
+              "score": 0.495066
+            },
+            {
+              "rank": 14,
+              "number": 11,
+              "score": 0.493317
+            },
+            {
+              "rank": 15,
+              "number": 24,
+              "score": 0.481659
+            },
+            {
+              "rank": 16,
+              "number": 9,
+              "score": 0.479798
+            },
+            {
+              "rank": 17,
+              "number": 29,
+              "score": 0.474761
+            },
+            {
+              "rank": 18,
+              "number": 20,
+              "score": 0.467553
+            },
+            {
+              "rank": 19,
+              "number": 28,
+              "score": 0.464432
+            },
+            {
+              "rank": 20,
+              "number": 23,
+              "score": 0.460188
+            },
+            {
+              "rank": 21,
+              "number": 4,
+              "score": 0.455476
+            },
+            {
+              "rank": 22,
+              "number": 16,
+              "score": 0.448989
+            },
+            {
+              "rank": 23,
+              "number": 17,
+              "score": 0.440559
+            },
+            {
+              "rank": 24,
+              "number": 27,
+              "score": 0.43882
+            },
+            {
+              "rank": 25,
+              "number": 21,
+              "score": 0.433784
+            },
+            {
+              "rank": 26,
+              "number": 6,
+              "score": 0.430894
+            },
+            {
+              "rank": 27,
+              "number": 31,
+              "score": 0.422641
+            },
+            {
+              "rank": 28,
+              "number": 18,
+              "score": 0.418066
+            },
+            {
+              "rank": 29,
+              "number": 15,
+              "score": 0.411176
+            },
+            {
+              "rank": 30,
+              "number": 25,
+              "score": 0.402043
+            },
+            {
+              "rank": 31,
+              "number": 12,
+              "score": 0.384963
+            },
+            {
+              "rank": 32,
+              "number": 2,
+              "score": 0.378113
+            },
+            {
+              "rank": 33,
+              "number": 19,
+              "score": 0.377985
+            }
+          ]
+        ]
+      },
+      {
+        "label": "蓝球",
+        "numbers": [
+          14
+        ],
+        "scores": [
+          [
+            0.633492643557519,
+            0.463563799154877,
+            0.601342682561903,
+            0.5228754726629087,
+            0.4355581647091816,
+            0.3904581580049727,
+            0.4723007594094024,
+            0.37885908131579876,
+            0.5233912941208303,
+            0.4516053994645434,
+            0.4763322213173538,
+            0.4692152913247002,
+            0.4231109830397191,
+            0.6342257019945993,
+            0.5169467604107802,
+            0.6107904945202698
+          ]
+        ],
+        "rankings": [
+          [
+            {
+              "rank": 1,
+              "number": 14,
+              "score": 0.634226
+            },
+            {
+              "rank": 2,
+              "number": 1,
+              "score": 0.633493
+            },
+            {
+              "rank": 3,
+              "number": 16,
+              "score": 0.61079
+            },
+            {
+              "rank": 4,
+              "number": 3,
+              "score": 0.601343
+            },
+            {
+              "rank": 5,
+              "number": 9,
+              "score": 0.523391
+            },
+            {
+              "rank": 6,
+              "number": 4,
+              "score": 0.522875
+            },
+            {
+              "rank": 7,
+              "number": 15,
+              "score": 0.516947
+            },
+            {
+              "rank": 8,
+              "number": 11,
+              "score": 0.476332
+            },
+            {
+              "rank": 9,
+              "number": 7,
+              "score": 0.472301
+            },
+            {
+              "rank": 10,
+              "number": 12,
+              "score": 0.469215
+            },
+            {
+              "rank": 11,
+              "number": 2,
+              "score": 0.463564
+            },
+            {
+              "rank": 12,
+              "number": 10,
+              "score": 0.451605
+            },
+            {
+              "rank": 13,
+              "number": 5,
+              "score": 0.435558
+            },
+            {
+              "rank": 14,
+              "number": 13,
+              "score": 0.423111
+            },
+            {
+              "rank": 15,
+              "number": 6,
+              "score": 0.390458
+            },
+            {
+              "rank": 16,
+              "number": 8,
+              "score": 0.378859
+            }
+          ]
+        ]
+      }
+    ],
+    "forecastNote": "建议号码由全量历史重新训练后生成；回测结论只来自未触及的后 20% 测试期。下一期建议尚未验证。",
+    "warning": "这是单次时间留出实验；彩票开奖若独立随机，任何历史优势都可能是噪声，不能保证未来中奖。",
+    "trainedAt": "2026-11-10T18:24:50+08:00"
+  },
+  "dlt": {
+    "game": "dlt",
+    "drawCount": 2944,
+    "trainCount": 2355,
+    "testCount": 589,
+    "trainFirst": "07001",
+    "trainLast": "22139",
+    "testFirst": "22140",
+    "testLast": "26126",
+    "architecture": "per-group MLP, 12 hidden units; 5/20 draw features",
+    "epochs": 4,
+    "trainExamplesPerHead": 1200,
+    "meanHits": {
+      "nn": 1.0526,
+      "bayes": 1.0357,
+      "random": 1.0476
+    },
+    "nnMinusRandom": {
+      "mean": 0.005,
+      "ci95": [
+        -0.0612,
+        0.0763
+      ]
+    },
+    "nnMinusBayes": {
+      "mean": 0.017,
+      "ci95": [
+        -0.0832,
+        0.1188
+      ]
+    },
+    "groups": [
+      {
+        "label": "前区",
+        "randomExpected": 0.7143
+      },
+      {
+        "label": "后区",
+        "randomExpected": 0.3333
+      }
+    ],
+    "beatsRandomAt95": false,
+    "beatsBayesAt95": false,
+    "results": {
+      "random": "未证明显著优于随机",
+      "bayes": "未证明显著优于贝叶斯基线"
+    },
+    "nextSuggestedNumbers": [
+      {
+        "label": "前区",
+        "numbers": [
+          2,
+          6,
+          11,
+          12,
+          33
+        ]
+      },
+      {
+        "label": "后区",
+        "numbers": [
+          4,
+          7
+        ]
+      }
+    ],
+    "forecastNote": "建议号码由全量历史重新训练后生成；回测结论只来自未触及的后 20% 测试期。下一期建议尚未验证。",
+    "warning": "这是单次时间留出实验；彩票开奖若独立随机，任何历史优势都可能是噪声，不能保证未来中奖。",
+    "trainedAt": "2026-11-08T20:59:49+08:00"
+  },
+  "3d": {
+    "game": "3d",
+    "drawCount": 4799,
+    "trainCount": 3839,
+    "testCount": 960,
+    "trainFirst": "2013002",
+    "trainLast": "2024037",
+    "testFirst": "2024038",
+    "testLast": "2026294",
+    "architecture": "per-group MLP, 12 hidden units; 5/20 draw features",
+    "epochs": 4,
+    "trainExamplesPerHead": 1200,
+    "meanHits": {
+      "nn": 0.2885,
+      "bayes": 0.2958,
+      "random": 0.3
+    },
+    "nnMinusRandom": {
+      "mean": -0.0115,
+      "ci95": [
+        -0.0406,
+        0.0177
+      ]
+    },
+    "nnMinusBayes": {
+      "mean": -0.0073,
+      "ci95": [
+        -0.0521,
+        0.0385
+      ]
+    },
+    "groups": [
+      {
+        "label": "号码",
+        "randomExpected": 0.3
+      }
+    ],
+    "beatsRandomAt95": false,
+    "beatsBayesAt95": false,
+    "results": {
+      "random": "未证明显著优于随机",
+      "bayes": "未证明显著优于贝叶斯基线"
+    },
+    "nextSuggestedNumbers": [
+      {
+        "label": "号码",
+        "numbers": [
+          4,
+          3,
+          2
+        ]
+      }
+    ],
+    "forecastNote": "建议号码由全量历史重新训练后生成；回测结论只来自未触及的后 20% 测试期。下一期建议尚未验证。",
+    "warning": "这是单次时间留出实验；彩票开奖若独立随机，任何历史优势都可能是噪声，不能保证未来中奖。",
+    "trainedAt": "2026-11-08T20:59:58+08:00"
+  },
+  "pls": {
+    "game": "pls",
+    "drawCount": 7769,
+    "trainCount": 6215,
+    "testCount": 1554,
+    "trainFirst": "04001",
+    "trainLast": "22145",
+    "testFirst": "22146",
+    "testLast": "26294",
+    "architecture": "per-group MLP, 12 hidden units; 5/20 draw features",
+    "epochs": 4,
+    "trainExamplesPerHead": 1200,
+    "meanHits": {
+      "nn": 0.2883,
+      "bayes": 0.2883,
+      "random": 0.3
+    },
+    "nnMinusRandom": {
+      "mean": -0.0117,
+      "ci95": [
+        -0.0362,
+        0.016
+      ]
+    },
+    "nnMinusBayes": {
+      "mean": 0.0,
+      "ci95": [
+        -0.036,
+        0.036
+      ]
+    },
+    "groups": [
+      {
+        "label": "号码",
+        "randomExpected": 0.3
+      }
+    ],
+    "beatsRandomAt95": false,
+    "beatsBayesAt95": false,
+    "results": {
+      "random": "未证明显著优于随机",
+      "bayes": "未证明显著优于贝叶斯基线"
+    },
+    "nextSuggestedNumbers": [
+      {
+        "label": "号码",
+        "numbers": [
+          1,
+          8,
+          5
+        ]
+      }
+    ],
+    "forecastNote": "建议号码由全量历史重新训练后生成；回测结论只来自未触及的后 20% 测试期。下一期建议尚未验证。",
+    "warning": "这是单次时间留出实验；彩票开奖若独立随机，任何历史优势都可能是噪声，不能保证未来中奖。",
+    "trainedAt": "2026-11-08T21:00:13+08:00"
+  },
+  "kl8": {
+    "game": "kl8",
+    "drawCount": 2115,
+    "trainCount": 1692,
+    "testCount": 423,
+    "trainFirst": "2020001",
+    "trainLast": "2025222",
+    "testFirst": "2025223",
+    "testLast": "2026294",
+    "architecture": "per-group MLP, 12 hidden units; 5/20 draw features",
+    "epochs": 4,
+    "trainExamplesPerHead": 1200,
+    "meanHits": {
+      "nn": 4.9456,
+      "bayes": 4.8936,
+      "random": 5.0
+    },
+    "nnMinusRandom": {
+      "mean": -0.0544,
+      "ci95": [
+        -0.2175,
+        0.1087
+      ]
+    },
+    "nnMinusBayes": {
+      "mean": 0.052,
+      "ci95": [
+        -0.2128,
+        0.2979
+      ]
+    },
+    "groups": [
+      {
+        "label": "号码",
+        "randomExpected": 5.0
+      }
+    ],
+    "beatsRandomAt95": false,
+    "beatsBayesAt95": false,
+    "results": {
+      "random": "未证明显著优于随机",
+      "bayes": "未证明显著优于贝叶斯基线"
+    },
+    "nextSuggestedNumbers": [
+      {
+        "label": "号码",
+        "numbers": [
+          2,
+          5,
+          6,
+          7,
+          9,
+          10,
+          15,
+          16,
+          19,
+          22,
+          24,
+          27,
+          33,
+          43,
+          52,
+          54,
+          56,
+          60,
+          76,
+          77
+        ]
+      }
+    ],
+    "forecastNote": "建议号码由全量历史重新训练后生成；回测结论只来自未触及的后 20% 测试期。下一期建议尚未验证。",
+    "warning": "这是单次时间留出实验；彩票开奖若独立随机，任何历史优势都可能是噪声，不能保证未来中奖。",
+    "trainedAt": "2026-11-08T21:00:24+08:00"
+  }
+}
